@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/list"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Assessment Reports"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:background="#00B2EE"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="15dp"
+        android:padding="5dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="EnergyWise"
+        android:textAlignment="textStart"
+        android:id="@+id/energywise"
+        android:layout_gravity="center_horizontal"
+        android:background="#00B2EE"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="5dp"
+        android:paddingLeft="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="IPv6"
+        android:textAlignment="textStart"
+        android:id="@+id/ipv6"
+        android:background="#00B2EE"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="5dp"
+        android:paddingLeft="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="MediaNet"
+        android:textAlignment="textStart"
+        android:id="@+id/medianet"
+        android:background="#00B2EE"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="5dp"
+        android:paddingLeft="10dp"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ew"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EnergyWise Report"
+            android:textSize="30sp"
+            android:background="#00B2EE"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:layout_alignParentRight="true"
+            android:padding="5dp"
+            />
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+
+            >
+            <!-- headings - EnergyWise Report -->
+            <!--android:background="#768858"-->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textSize="20sp"
+                android:padding="3dp"
+                android:background="@layout/table_row_bg"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3"
+                   >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:text="Host Name \n"
+                    android:textColor="#000000"
+                    android:layout_weight="1"
+                    android:background="@layout/table_cell_bg"
+                    android:textAlignment="center"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:text="EnergyWise Assessment"
+                    android:textColor="#000000"
+                    android:layout_weight="1"
+                    android:background="@layout/table_cell_bg"
+                    android:textAlignment="center"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:text="Product Name"
+                    android:textColor="#000000"
+                    android:layout_weight="1"
+                    android:background="@layout/table_cell_bg"
+                    android:textAlignment="center"
+                    />
+
+                </LinearLayout>
+            </TableRow>
+            <!-- Record 1-->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:padding="3dp"
+                android:background="@layout/table_row_bg"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="lab-tok-eigrp-rip-3"
+                        android:textColor="#000000"
+                        android:layout_weight="1"
+                        android:background="@layout/table_cell_bg"
+                        android:paddingLeft="5dp"
+
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Capable"
+                        android:textColor="#000000"
+                        android:layout_weight="1"
+                        android:background="@layout/table_cell_bg"
+                        android:paddingLeft="5dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="C2821-VSEC/K9"
+                        android:textColor="#000000"
+                        android:layout_weight="1"
+                        android:background="@layout/table_cell_bg"
+                        android:paddingLeft="5dp"
+                        />
+
+                </LinearLayout>
+            </TableRow>
+
+            <!-- Record 2-->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:padding="3dp"
+                android:background="@layout/table_row_bg"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="lab-tok-eigrp-rip-3"
+                        android:textColor="#000000"
+                        android:layout_weight="1"
+                        android:background="@layout/table_cell_bg"
+                        android:paddingLeft="5dp"
+
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Not Capable"
+                        android:textColor="#000000"
+                        android:layout_weight="1"
+                        android:background="@layout/table_cell_bg"
+                        android:paddingLeft="5dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="C2821-VSEC/K9"
+                        android:textColor="#000000"
+                        android:layout_weight="1"
+                        android:background="@layout/table_cell_bg"
+                        android:paddingLeft="5dp"
+                        />
+
+                </LinearLayout>
+            </TableRow>
+
+            <!-- Record 3-->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:padding="3dp"
+                android:background="@layout/table_row_bg"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="lab-tok-eigrp-rip-3 \n"
+                        android:textColor="#000000"
+                        android:layout_weight="1"
+                        android:background="@layout/table_cell_bg"
+                        android:paddingLeft="5dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Required Upgradation"
+                        android:textColor="#000000"
+                        android:layout_weight="1"
+                        android:background="@layout/table_cell_bg"
+                        android:paddingLeft="5dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="C2821-VSEC/K9"
+                        android:textColor="#000000"
+                        android:layout_weight="1"
+                        android:background="@layout/table_cell_bg"
+                        android:paddingLeft="5dp"
+                        />
+
+                </LinearLayout>
+            </TableRow>
+
+            <!-- Record 4-->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:padding="3dp"
+                android:background="@layout/table_row_last_bg"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="lab-tok-eigrp-rip-3 \n"
+                        android:textColor="#000000"
+                        android:layout_weight="1"
+                        android:background="@layout/table_cell_bg"
+                        android:paddingLeft="5dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Further Analysis Required"
+                        android:textColor="#000000"
+                        android:layout_weight="1"
+                        android:background="@layout/table_cell_bg"
+                        android:paddingLeft="5dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="C2821-VSEC/K9"
+                        android:textColor="#000000"
+                        android:layout_weight="1"
+                        android:background="@layout/table_cell_bg"
+                        android:paddingLeft="5dp"
+                        />
+
+                </LinearLayout>
+            </TableRow>
+
+        </TableLayout>
+    </LinearLayout>
+
+    <!-- ipv6 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ip"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="IPv6 Report"
+            android:textSize="30sp"
+            android:background="#00B2EE"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:layout_alignParentRight="true"
+            android:padding="5dp"
+            />
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+
+            >
+            <!-- headings - IPv6 Report -->
+            <!--android:background="#768858"-->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:padding="3dp"
+                android:background="@layout/table_row_bg"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:text="Host Name \n"
+                        android:textColor="#000000"
+                        android:layout_weight="1"
+                        android:background="@layout/table_cell_bg"
+                        android:textAlignment="center"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:text="IPv6 Assessment"
+                        android:textColor="#000000"
+                        android:layout_weight="1"
+                        android:background="@layout/table_cell_bg"
+                        android:textAlignment="center"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:text="Product Name"
+                        android:textColor="#000000"
+                        android:layout_weight="1"
+                        android:background="@layout/table_cell_bg"
+                        android:textAlignment="center"
+                        />
+
+                </LinearLayout>
+            </TableRow>
+            <!-- Record 1-->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:padding="3dp"
+                android:background="@layout/table_row_bg"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="lab-tok-eigrp-rip-3"
+                        android:textColor="#000000"
+                        android:layout_weight="1"
+                        android:background="@layout/table_cell_bg"
+                        android:paddingLeft="5dp"
+
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Capable"
+                        android:textColor="#000000"
+                        android:layout_weight="1"
+                        android:background="@layout/table_cell_bg"
+                        android:paddingLeft="5dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="C2821-VSEC/K9"
+                        android:textColor="#000000"
+                        android:layout_weight="1"
+                        android:background="@layout/table_cell_bg"
+                        android:paddingLeft="5dp"
+                        />
+
+                </LinearLayout>
+            </TableRow>
+
+            <!-- Record 2-->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:padding="3dp"
+                android:background="@layout/table_row_bg"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="lab-tok-eigrp-rip-3"
+                        android:textColor="#000000"
+                        android:layout_weight="1"
+                        android:background="@layout/table_cell_bg"
+                        android:paddingLeft="5dp"
+
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Not Capable"
+                        android:textColor="#000000"
+                        android:layout_weight="1"
+                        android:background="@layout/table_cell_bg"
+                        android:paddingLeft="5dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="C2821-VSEC/K9"
+                        android:textColor="#000000"
+                        android:layout_weight="1"
+                        android:background="@layout/table_cell_bg"
+                        android:paddingLeft="5dp"
+                        />
+
+                </LinearLayout>
+            </TableRow>
+
+            <!-- Record 3-->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:padding="3dp"
+                android:background="@layout/table_row_bg"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="lab-tok-eigrp-rip-3 \n"
+                        android:textColor="#000000"
+                        android:layout_weight="1"
+                        android:background="@layout/table_cell_bg"
+                        android:paddingLeft="5dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Required Upgradation"
+                        android:textColor="#000000"
+                        android:layout_weight="1"
+                        android:background="@layout/table_cell_bg"
+                        android:paddingLeft="5dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="C2821-VSEC/K9"
+                        android:textColor="#000000"
+                        android:layout_weight="1"
+                        android:background="@layout/table_cell_bg"
+                        android:paddingLeft="5dp"
+                        />
+
+                </LinearLayout>
+            </TableRow>
+
+            <!-- Record 4-->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:padding="3dp"
+                android:background="@layout/table_row_last_bg"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="lab-tok-eigrp-rip-3 \n"
+                        android:textColor="#000000"
+                        android:layout_weight="1"
+                        android:background="@layout/table_cell_bg"
+                        android:paddingLeft="5dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Further Analysis Required"
+                        android:textColor="#000000"
+                        android:layout_weight="1"
+                        android:background="@layout/table_cell_bg"
+                        android:paddingLeft="5dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="C2821-VSEC/K9"
+                        android:textColor="#000000"
+                        android:layout_weight="1"
+                        android:background="@layout/table_cell_bg"
+                        android:paddingLeft="5dp"
+                        />
+
+                </LinearLayout>
+            </TableRow>
+
+        </TableLayout>
+    </LinearLayout>
+
+
+    <!-- media net -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/md"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MediaNet Report"
+            android:textSize="30sp"
+            android:background="#00B2EE"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:layout_alignParentRight="true"
+            android:padding="5dp"
+            />
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+
+            >
+            <!-- headings - MediaNet Report -->
+            <!--android:background="#768858"-->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:padding="3dp"
+                android:background="@layout/table_row_bg"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:text="Host Name \n"
+                        android:textColor="#000000"
+                        android:layout_weight="1"
+                        android:background="@layout/table_cell_bg"
+                        android:textAlignment="center"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:text="MediaNet Assessment"
+                        android:textColor="#000000"
+                        android:layout_weight="1"
+                        android:background="@layout/table_cell_bg"
+                        android:textAlignment="center"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:text="Product Name"
+                        android:textColor="#000000"
+                        android:layout_weight="1"
+                        android:background="@layout/table_cell_bg"
+                        android:textAlignment="center"
+                        />
+
+                </LinearLayout>
+            </TableRow>
+            <!-- Record 1-->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:padding="3dp"
+                android:background="@layout/table_row_bg"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="lab-tok-eigrp-rip-3"
+                        android:textColor="#000000"
+                        android:layout_weight="1"
+                        android:background="@layout/table_cell_bg"
+                        android:paddingLeft="5dp"
+
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Capable"
+                        android:textColor="#000000"
+                        android:layout_weight="1"
+                        android:background="@layout/table_cell_bg"
+                        android:paddingLeft="5dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="C2821-VSEC/K9"
+                        android:textColor="#000000"
+                        android:layout_weight="1"
+                        android:background="@layout/table_cell_bg"
+                        android:paddingLeft="5dp"
+                        />
+
+                </LinearLayout>
+            </TableRow>
+
+            <!-- Record 2-->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:padding="3dp"
+                android:background="@layout/table_row_bg"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="lab-tok-eigrp-rip-3"
+                        android:textColor="#000000"
+                        android:layout_weight="1"
+                        android:background="@layout/table_cell_bg"
+                        android:paddingLeft="5dp"
+
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Not Capable"
+                        android:textColor="#000000"
+                        android:layout_weight="1"
+                        android:background="@layout/table_cell_bg"
+                        android:paddingLeft="5dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="C2821-VSEC/K9"
+                        android:textColor="#000000"
+                        android:layout_weight="1"
+                        android:background="@layout/table_cell_bg"
+                        android:paddingLeft="5dp"
+                        />
+
+                </LinearLayout>
+            </TableRow>
+
+            <!-- Record 3-->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:padding="3dp"
+                android:background="@layout/table_row_bg"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="lab-tok-eigrp-rip-3 \n"
+                        android:textColor="#000000"
+                        android:layout_weight="1"
+                        android:background="@layout/table_cell_bg"
+                        android:paddingLeft="5dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Required Upgradation"
+                        android:textColor="#000000"
+                        android:layout_weight="1"
+                        android:background="@layout/table_cell_bg"
+                        android:paddingLeft="5dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="C2821-VSEC/K9"
+                        android:textColor="#000000"
+                        android:layout_weight="1"
+                        android:background="@layout/table_cell_bg"
+                        android:paddingLeft="5dp"
+                        />
+
+                </LinearLayout>
+            </TableRow>
+
+            <!-- Record 4-->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:padding="3dp"
+                android:background="@layout/table_row_last_bg"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="lab-tok-eigrp-rip-3 \n"
+                        android:textColor="#000000"
+                        android:layout_weight="1"
+                        android:background="@layout/table_cell_bg"
+                        android:paddingLeft="5dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Further Analysis Required"
+                        android:textColor="#000000"
+                        android:layout_weight="1"
+                        android:background="@layout/table_cell_bg"
+                        android:paddingLeft="5dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="C2821-VSEC/K9"
+                        android:textColor="#000000"
+                        android:layout_weight="1"
+                        android:background="@layout/table_cell_bg"
+                        android:paddingLeft="5dp"
+                        />
+
+                </LinearLayout>
+            </TableRow>
+
+        </TableLayout>
+    </LinearLayout>
+</FrameLayout>
