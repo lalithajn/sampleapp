@@ -14,7 +14,7 @@ android {
     buildToolsVersion "23.0.3"
     defaultConfig {
         applicationId "cisco.com.reports"
-        minSdkVersion 23
+        minSdkVersion 14
         targetSdkVersion 23
         versionCode 100002
         versionName "2.0"
