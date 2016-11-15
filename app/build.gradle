@@ -16,8 +16,8 @@ android {
         applicationId "cisco.com.reports"
         minSdkVersion 14
         targetSdkVersion 23
-        versionCode 100002
-        versionName "2.0"
+        versionCode 100003
+        versionName "3.0"
         signingConfig signingConfigs.config
     }
     buildTypes {
