@@ -52,6 +52,7 @@
         android:layout_marginBottom="5dp"
         android:paddingLeft="10dp"/>
 </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -81,17 +82,14 @@
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-
                 android:textSize="20sp"
                 android:padding="3dp"
-                android:background="@layout/table_row_bg"
-                >
+                android:background="@layout/table_row_bg">
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
-                    android:weightSum="3"
-                   >
+                    android:weightSum="3">
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="35dp"
@@ -140,7 +138,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="lab-tok-eigrp-rip-3"
+                        android:text="Host Name1"
                         android:textColor="#000000"
                         android:layout_weight="1"
                         android:background="@layout/table_cell_bg"
@@ -159,7 +157,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="C2821-VSEC/K9"
+                        android:text="Product Name1"
                         android:textColor="#000000"
                         android:layout_weight="1"
                         android:background="@layout/table_cell_bg"
@@ -187,7 +185,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="lab-tok-eigrp-rip-3"
+                        android:text="Hostname2"
                         android:textColor="#000000"
                         android:layout_weight="1"
                         android:background="@layout/table_cell_bg"
@@ -206,7 +204,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="C2821-VSEC/K9"
+                        android:text="Product Name"
                         android:textColor="#000000"
                         android:layout_weight="1"
                         android:background="@layout/table_cell_bg"
@@ -233,7 +231,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="lab-tok-eigrp-rip-3 \n"
+                        android:text="Hostname3 \n"
                         android:textColor="#000000"
                         android:layout_weight="1"
                         android:background="@layout/table_cell_bg"
@@ -251,7 +249,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="C2821-VSEC/K9"
+                        android:text="Product Name1"
                         android:textColor="#000000"
                         android:layout_weight="1"
                         android:background="@layout/table_cell_bg"
@@ -278,7 +276,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="lab-tok-eigrp-rip-3 \n"
+                        android:text="Hostname4 \n"
                         android:textColor="#000000"
                         android:layout_weight="1"
                         android:background="@layout/table_cell_bg"
@@ -296,7 +294,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="C2821-VSEC/K9"
+                        android:text="Product Name1"
                         android:textColor="#000000"
                         android:layout_weight="1"
                         android:background="@layout/table_cell_bg"
@@ -396,7 +394,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="lab-tok-eigrp-rip-3"
+                        android:text="HostName1"
                         android:textColor="#000000"
                         android:layout_weight="1"
                         android:background="@layout/table_cell_bg"
@@ -415,7 +413,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="C2821-VSEC/K9"
+                        android:text="Product Name1"
                         android:textColor="#000000"
                         android:layout_weight="1"
                         android:background="@layout/table_cell_bg"
@@ -442,7 +440,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="lab-tok-eigrp-rip-3"
+                        android:text="Hostname2"
                         android:textColor="#000000"
                         android:layout_weight="1"
                         android:background="@layout/table_cell_bg"
@@ -461,7 +459,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="C2821-VSEC/K9"
+                        android:text="Product Name1"
                         android:textColor="#000000"
                         android:layout_weight="1"
                         android:background="@layout/table_cell_bg"
@@ -488,7 +486,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="lab-tok-eigrp-rip-3 \n"
+                        android:text="Host Name3 \n"
                         android:textColor="#000000"
                         android:layout_weight="1"
                         android:background="@layout/table_cell_bg"
@@ -506,7 +504,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="C2821-VSEC/K9"
+                        android:text="Product Name2"
                         android:textColor="#000000"
                         android:layout_weight="1"
                         android:background="@layout/table_cell_bg"
@@ -533,7 +531,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="lab-tok-eigrp-rip-3 \n"
+                        android:text="Host Name4 \n"
                         android:textColor="#000000"
                         android:layout_weight="1"
                         android:background="@layout/table_cell_bg"
@@ -551,7 +549,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="C2821-VSEC/K9"
+                        android:text="Product Name1"
                         android:textColor="#000000"
                         android:layout_weight="1"
                         android:background="@layout/table_cell_bg"
@@ -652,7 +650,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="lab-tok-eigrp-rip-3"
+                        android:text="Host Name1"
                         android:textColor="#000000"
                         android:layout_weight="1"
                         android:background="@layout/table_cell_bg"
@@ -671,7 +669,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="C2821-VSEC/K9"
+                        android:text="Product Name1"
                         android:textColor="#000000"
                         android:layout_weight="1"
                         android:background="@layout/table_cell_bg"
@@ -698,7 +696,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="lab-tok-eigrp-rip-3"
+                        android:text="Host Name2"
                         android:textColor="#000000"
                         android:layout_weight="1"
                         android:background="@layout/table_cell_bg"
@@ -717,7 +715,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="C2821-VSEC/K9"
+                        android:text="Product Name1"
                         android:textColor="#000000"
                         android:layout_weight="1"
                         android:background="@layout/table_cell_bg"
@@ -744,7 +742,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="lab-tok-eigrp-rip-3 \n"
+                        android:text="Host Name3 \n"
                         android:textColor="#000000"
                         android:layout_weight="1"
                         android:background="@layout/table_cell_bg"
@@ -762,7 +760,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="C2821-VSEC/K9"
+                        android:text="Product Name1"
                         android:textColor="#000000"
                         android:layout_weight="1"
                         android:background="@layout/table_cell_bg"
@@ -789,7 +787,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="lab-tok-eigrp-rip-3 \n"
+                        android:text="Host Name4 \n"
                         android:textColor="#000000"
                         android:layout_weight="1"
                         android:background="@layout/table_cell_bg"
@@ -807,7 +805,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="C2821-VSEC/K9"
+                        android:text="Product Name1"
                         android:textColor="#000000"
                         android:layout_weight="1"
                         android:background="@layout/table_cell_bg"
